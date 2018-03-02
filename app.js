@@ -29,6 +29,7 @@ app.use('/contact', contact);
 app.use('/about', about);
 app.use('/gallery', gallery);
 app.use('/service', service);
+//Add app route
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
